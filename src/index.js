@@ -30,7 +30,7 @@ async function run() {
     
     const endTime = Date.now();
     console.log(`Took ${endTime - startTime} ms`);
-    console.log(JSON.stringify(AutoCollectPreAggregatedMetrics._dependencyCountersCollection, null, 2))
+    // console.log(JSON.stringify(AutoCollectPreAggregatedMetrics._dependencyCountersCollection, null, 2))
     console.log(`AutoCollectPreAggregatedMetrics._dependencyCountersCollection.length = ${AutoCollectPreAggregatedMetrics._dependencyCountersCollection.length}`);
 
     await sleep(1000);
